@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-darkmode",
+  "version": "1.0.0",
+  "description": "A sample for a new cordova plugin to detect dark/inversion color mode",
+  "cordova": {
+    "id": "cordova-plugin-darkmode",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmove/cordova-darkmode-plugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "darkmode",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "OpenMove team",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/openmove/cordova-darkmode-plugin"
+  },
+  "homepage": "https://openmove.com"
+}
