@@ -12,7 +12,6 @@ public class DarkMode extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext){
-        Log.e(TAG, action);
         if (action.equals("darkmode")) {
 
             int a = cordova.getActivity().getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
