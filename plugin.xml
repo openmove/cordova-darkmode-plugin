@@ -24,5 +24,15 @@
 	 <source-file src="src/android/DarkMode.java" target-dir="src/com/openmove/darkmode/"/>
   </platform>
 
+  <platform name="ios">
+      <config-file target="config.xml" parent="/*">
+          <feature name="DarkMode">
+              <param name="ios-package" value="DarkMode" onload="true" />
+              <param name="onload" value="true" />
+          </feature>
+      </config-file>
+    <header-file src="src/ios/DarkMode.h" />
+    <source-file src="src/ios/DarkMode.m" />
+  </platform>
 
 </plugin>
